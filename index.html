@@ -3,42 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>C20</title>
+    <title>Two Pictures and Text Field</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 10px;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
         }
-        .container {
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .image-container {
             display: flex;
-            align-items: flex-start;
+            justify-content: center;
+            margin-bottom: 20px;
         }
-        .gif-box {
-            margin-right: 20px;
-        }
-        .gif-box img {
-            max-width: 10em;
+        .image-container img {
+            width: 50%;
             height: auto;
-            border: 1px solid #ccc;
-            padding: 0px;
-            background-color: #f9f9f9;
         }
-        .text {
-            max-width: 600px;
+        .text-field {
+            text-align: center;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
-    <h1>C<sub>20</sub></h1>
-    <div class="container">
-        <div class="gif-box">
-            <img src="C20.gif" alt="Sample GIF">
-        </div>
-        <div class="text">
-            <p>
-                Sicherlich hast du schon von Graphit und Diamant gehört. Sie sind zwei wichtige alothrope Modifikationen des Elements Kohlenstoff. Eine andere, weniger bekannte Modifikation des Kohlenstoffs sind die Fullerene - kugelförmige Moleküle, die mehrere Dutzend Kohlenstoffatome enthalten. Das kleinste von ihnen ist das C20. Fullerene haben viele Anwendungsmöglichkeiten, wie z. B. als Elektronenübertragungsmaterial in Solarzellen und als Käfigmolekül für die Speicherung von elementarem Wasserstoff.
-            </p>
-        </div>
+    <header>
+        <h1>C20</h1>
+    </header>
+    <div class="image-container">
+        <img src="C20.png" alt="Image 1">
+        <img src="C20.gif" alt="Image 2">
+    </div>
+    <div class="text-field">
+        <p>Sicherlich hast du schon von Graphit und Diamant gehört. Sie sind zwei wichtige alothrope Modifikationen des Elements Kohlenstoff. Eine andere, weniger bekannte Modifikation des Kohlenstoffs sind die Fullerene - kugelförmige Moleküle, die mehrere Dutzend Kohlenstoffatome enthalten. Das kleinste von ihnen ist das C20. Fullerene haben viele Anwendungsmöglichkeiten, wie z. B. als Elektronenübertragungsmaterial in Solarzellen und als Käfigmolekül für die Speicherung von elementarem Wasserstoff.</p>
     </div>
 </body>
 </html>
